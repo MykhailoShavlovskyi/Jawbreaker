@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="42" height="42" tilewidth="64" tileheight="64" nextobjectid="3043">
+ <tileset firstgid="1" name="ground" tilewidth="1088" tileheight="64" tilecount="1">
+  <image source="ground.png" width="1088" height="64"/>
+ </tileset>
+ <tileset firstgid="2" name="monster" tilewidth="256" tileheight="128" tilecount="1">
+  <image source="monster.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="3" name="stickyplats" tilewidth="128" tileheight="64" tilecount="1">
+  <image source="stickyplats.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="4" name="base" tilewidth="128" tileheight="128" tilecount="1">
+  <image source="base.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="5" name="cannon" tilewidth="128" tileheight="128" tilecount="1">
+  <image source="cannon.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="6" name="Star2" tilewidth="32" tileheight="32" tilecount="1">
+  <image source="Star2.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="7" name="plat" tilewidth="192" tileheight="64" tilecount="1">
+  <image source="plat.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="8" name="plats" tilewidth="128" tileheight="64" tilecount="1">
+  <image source="plats.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="9" name="platb" tilewidth="256" tileheight="64" tilecount="1">
+  <image source="platb.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="10" name="bplat" tilewidth="128" tileheight="64" tilecount="1">
+  <image source="bplat.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="11" name="spikeplat" tilewidth="128" tileheight="64" tilecount="1">
+  <image source="spikeplat.png" width="128" height="64"/>
+ </tileset>
+ <objectgroup name="Object Layer 1">
+  <object id="548" x="59.5501" y="339.129" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="550" x="9.85259" y="314.507" rotation="90.7151">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="551" x="10.4018" y="270.511" rotation="90.7151">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="552" x="40.6501" y="250.887" rotation="90.7151">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="553" x="49.5509" y="339.005" width="40" height="40" rotation="90.7151">
+   <ellipse/>
+  </object>
+  <object id="554" x="50.6493" y="251.011" width="40" height="40" rotation="90.7151">
+   <ellipse/>
+  </object>
+  <object id="555" x="60.6485" y="251.136" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="558" x="39.0524" y="378.877" rotation="90.7151">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="728" gid="1" x="0" y="1088" width="1088" height="64">
+   <properties>
+    <property name="Texture" value="ground.png"/>
+   </properties>
+  </object>
+  <object id="732" name="monster" gid="2" x="286.091" y="1078.37" width="256" height="128">
+   <properties>
+    <property name="Texture" value="monster.png"/>
+   </properties>
+  </object>
+  <object id="753" gid="5" x="1038.34" y="97.0942" width="128" height="128" rotation="-146.281">
+   <properties>
+    <property name="Texture" value="cannon.png"/>
+   </properties>
+  </object>
+  <object id="754" gid="4" x="1037.58" y="96.5877" width="128" height="128" rotation="-146.281">
+   <properties>
+    <property name="Texture" value="base2.png"/>
+   </properties>
+  </object>
+  <object id="760" x="0" y="1061">
+   <properties>
+    <property name="Stickiness" value="Restart"/>
+   </properties>
+   <polyline points="0,0 1180,0"/>
+  </object>
+  <object id="818" x="60.3614" y="274.14" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="819" x="60.0993" y="295.138" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="820" x="59.8371" y="316.136" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="821" gid="3" x="10.6523" y="250.517" width="128" height="64" rotation="90.7151">
+   <properties>
+    <property name="Texture" value="stickyplats.png"/>
+   </properties>
+  </object>
+  <object id="822" gid="7" x="1094.98" y="76.9871" width="192" height="64" rotation="-146.281">
+   <properties>
+    <property name="Texture" value="plat.png"/>
+   </properties>
+  </object>
+  <object id="823" x="1078.29" y="101.917" rotation="-506.41">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="824" x="1050.57" y="107.512" rotation="-506.41">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="825" x="946.143" y="26.1524" width="40" height="40" rotation="-506.41">
+   <ellipse/>
+  </object>
+  <object id="826" x="960.603" y="47.7619" rotation="-506.41">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="827" x="1041.58" y="41.5151" rotation="-506.41">
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="828" x="988.265" y="6.11075" rotation="-506.41">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="829" x="619.355" y="-14.3072" rotation="-506.41">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="830" x="1072.76" y="110.247" width="40" height="40" rotation="-506.41">
+   <ellipse/>
+  </object>
+  <object id="831" x="1078.23" y="65.8618" rotation="-506.41">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="832" x="940.61" y="34.4828" width="40" height="40" rotation="-506.41">
+   <ellipse/>
+  </object>
+  <object id="833" x="1067.23" y="118.577" width="40" height="40" rotation="-506.41">
+   <ellipse/>
+  </object>
+  <object id="834" x="1013.92" y="83.1661" rotation="-506.41">
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="835" x="1019.61" y="62.3574" width="70" height="70" rotation="466.005">
+   <ellipse/>
+  </object>
+  <object id="837" x="1008.97" y="54.292" width="70" height="70" rotation="466.005">
+   <ellipse/>
+  </object>
+  <object id="1228" x="25.2953" y="1023.98" rotation="90.6083">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2473" x="37.7334" y="505.387" rotation="90.7151">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2474" x="48.2319" y="465.515" width="40" height="40" rotation="90.7151">
+   <ellipse/>
+  </object>
+  <object id="2475" gid="3" x="9.33333" y="377.027" width="128" height="64" rotation="90.7151">
+   <properties>
+    <property name="Texture" value="stickyplats.png"/>
+   </properties>
+  </object>
+  <object id="2476" x="58.5181" y="442.646" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2477" x="59.0424" y="400.65" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2478" x="58.7803" y="421.648" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2479" x="58.2311" y="465.639" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2480" x="49.3303" y="377.521" width="40" height="40" rotation="90.7151">
+   <ellipse/>
+  </object>
+  <object id="2481" x="9.08283" y="397.021" rotation="90.7151">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2482" x="8.53362" y="441.017" rotation="90.7151">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2483" x="59.3295" y="377.646" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2484" x="39.3311" y="377.397" rotation="90.7151">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2509" x="36.4001" y="633.387" rotation="90.7151">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2510" x="46.8986" y="593.515" width="40" height="40" rotation="90.7151">
+   <ellipse/>
+  </object>
+  <object id="2511" gid="3" x="8" y="505.027" width="128" height="64" rotation="90.7151">
+   <properties>
+    <property name="Texture" value="stickyplats.png"/>
+   </properties>
+  </object>
+  <object id="2512" x="57.1848" y="570.646" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2513" x="57.7091" y="528.65" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2514" x="57.447" y="549.648" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2515" x="56.8978" y="593.639" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2516" x="47.997" y="505.521" width="40" height="40" rotation="90.7151">
+   <ellipse/>
+  </object>
+  <object id="2517" x="7.7495" y="525.021" rotation="90.7151">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2518" x="7.20029" y="569.017" rotation="90.7151">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2519" x="57.9962" y="505.646" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2520" x="37.9978" y="505.397" rotation="90.7151">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2533" x="35.0668" y="761.387" rotation="90.7151">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2534" x="45.5653" y="721.515" width="40" height="40" rotation="90.7151">
+   <ellipse/>
+  </object>
+  <object id="2535" gid="3" x="6.66667" y="633.027" width="128" height="64" rotation="90.7151">
+   <properties>
+    <property name="Texture" value="stickyplats.png"/>
+   </properties>
+  </object>
+  <object id="2536" x="55.8515" y="698.646" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2537" x="56.3758" y="656.65" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2538" x="56.1137" y="677.648" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2539" x="55.5645" y="721.639" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2540" x="46.6637" y="633.521" width="40" height="40" rotation="90.7151">
+   <ellipse/>
+  </object>
+  <object id="2541" x="6.41617" y="653.021" rotation="90.7151">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2542" x="5.86696" y="697.017" rotation="90.7151">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2543" x="56.6629" y="633.646" width="40" height="40" rotation="90.7151">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2544" x="36.6645" y="633.397" rotation="90.7151">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2593" x="49.0945" y="765.277" width="40" height="40" rotation="18.8919">
+   <ellipse/>
+  </object>
+  <object id="2594" x="51.3571" y="758.655" width="40" height="40" rotation="18.8919">
+   <ellipse/>
+  </object>
+  <object id="2595" x="111.911" y="779.377" rotation="18.8919">
+   <properties>
+    <property name="Stickiness" value="Bouncy"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2596" x="165.981" y="819.024" rotation="18.8919">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2597" x="96.6909" y="823.846" rotation="18.8919">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2598" x="132.355" y="793.77" width="40" height="40" rotation="18.8919">
+   <ellipse/>
+  </object>
+  <object id="2599" x="134.617" y="787.148" width="40" height="40" rotation="18.8919">
+   <ellipse/>
+  </object>
+  <object id="2600" gid="10" x="36.1373" y="803.125" width="128" height="64" rotation="18.8919">
+   <properties>
+    <property name="Texture" value="bplat.png"/>
+   </properties>
+  </object>
+  <object id="2601" x="44.8835" y="777.578" rotation="18.8919">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2602" x="55.0655" y="809.598" rotation="18.8919">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2603" x="70.276" y="765.132" rotation="18.8919">
+   <properties>
+    <property name="Stickiness" value="Bouncy"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2748" x="686.633" y="918.816" rotation="340.325">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2749" x="861.55" y="834.743" width="40" height="40" rotation="340.325">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2751" x="877.44" y="882.168" rotation="340.325">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2752" x="560.855" y="942.824" width="40" height="40" rotation="340.325">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2753" x="807.156" y="875.713" rotation="340.325">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2754" x="582.515" y="935.071" width="40" height="40" rotation="340.325">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2755" x="602.291" y="928.008" width="40" height="40" rotation="340.325">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2756" gid="3" x="577.692" y="989.893" width="128" height="64" rotation="340.325">
+   <properties>
+    <property name="Texture" value="stickyplats.png"/>
+   </properties>
+  </object>
+  <object id="2758" x="567.59" y="961.657" rotation="340.325">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2759" x="1003.64" y="783.653" width="40" height="40" rotation="340.325">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2761" x="647.087" y="922.613" width="40" height="40" rotation="340.325">
+   <ellipse/>
+  </object>
+  <object id="2762" gid="3" x="817.181" y="903.714" width="128" height="64" rotation="340.325">
+   <properties>
+    <property name="Texture" value="stickyplats.png"/>
+   </properties>
+  </object>
+  <object id="2763" x="643.718" y="913.196" width="40" height="40" rotation="340.325">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2764" x="688.114" y="918.554" rotation="340.325">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2765" x="956.452" y="853.632" rotation="340.325">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2766" x="997.889" y="838.816" rotation="340.325">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2767" x="841.777" y="841.816" width="40" height="40" rotation="340.325">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2768" x="920.784" y="813.28" width="40" height="40" rotation="340.325">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2769" x="807.076" y="875.465" rotation="340.325">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2771" x="803.708" y="866.049" width="40" height="40" rotation="340.325">
+   <ellipse/>
+  </object>
+  <object id="2772" x="924.151" y="822.698" width="40" height="40" rotation="340.325">
+   <ellipse/>
+  </object>
+  <object id="2775" x="800.341" y="856.632" width="40" height="40" rotation="340.325">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2776" x="1007.01" y="793.07" width="40" height="40" rotation="340.325">
+   <ellipse/>
+  </object>
+  <object id="2777" x="981.988" y="791.394" width="40" height="40" rotation="340.325">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2778" x="822.005" y="848.888" width="40" height="40" rotation="340.325">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2779" x="942.447" y="805.536" width="40" height="40" rotation="340.325">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2780" x="962.219" y="798.464" width="40" height="40" rotation="340.325">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2782" x="564.222" y="952.241" width="40" height="40" rotation="340.325">
+   <ellipse/>
+  </object>
+  <object id="2783" x="886.571" y="836.42" width="40" height="40" rotation="340.325">
+   <ellipse/>
+  </object>
+  <object id="2784" x="1048.05" y="789.019" rotation="340.325">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2785" x="883.203" y="827.004" width="40" height="40" rotation="340.325">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2786" gid="3" x="937.624" y="860.362" width="128" height="64" rotation="340.325">
+   <properties>
+    <property name="Texture" value="stickyplats.png"/>
+   </properties>
+  </object>
+  <object id="2787" x="927.518" y="832.113" rotation="340.325">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2789" x="622.064" y="920.935" width="40" height="40" rotation="340.325">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2791" x="927.603" y="832.371" rotation="340.325">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2792" x="836.01" y="896.982" rotation="340.325">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2793" x="637.952" y="968.351" rotation="340.325">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2795" x="596.52" y="983.167" rotation="340.325">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2807" x="668.645" y="476.934" rotation="-14.3213">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2808" x="682.008" y="432.236" width="40" height="40" rotation="-14.3213">
+   <ellipse/>
+  </object>
+  <object id="2809" x="626.014" y="487.814" rotation="-14.3213">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2810" gid="10" x="606.633" y="492.766" width="128" height="64" rotation="-14.3213">
+   <properties>
+    <property name="Texture" value="bplat.png"/>
+   </properties>
+  </object>
+  <object id="2811" x="657.02" y="431.392" rotation="-14.3213">
+   <properties>
+    <property name="Stickiness" value="Bouncy"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2812" x="595.008" y="447.225" width="40" height="40" rotation="-14.3213">
+   <ellipse/>
+  </object>
+  <object id="2813" x="680.274" y="425.456" width="40" height="40" rotation="-14.3213">
+   <ellipse/>
+  </object>
+  <object id="2814" x="599.957" y="466.602" rotation="-14.3213">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2815" x="723.974" y="434.945" rotation="-14.3213">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2816" x="614.384" y="442.28" rotation="-14.3213">
+   <properties>
+    <property name="Stickiness" value="Bouncy"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2817" x="596.742" y="454.004" width="40" height="40" rotation="-14.3213">
+   <ellipse/>
+  </object>
+  <object id="2818" gid="3" x="355.325" y="9.44064" width="128" height="64" rotation="148.761">
+   <properties>
+    <property name="Texture" value="stickyplats.png"/>
+   </properties>
+  </object>
+  <object id="2819" x="196.708" y="164.435" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2820" x="191.521" y="155.885" width="40" height="40" rotation="148.761">
+   <ellipse/>
+  </object>
+  <object id="2821" gid="3" x="463.364" y="-56.3919" width="128" height="64" rotation="148.761">
+   <properties>
+    <property name="Texture" value="stickyplats.png"/>
+   </properties>
+  </object>
+  <object id="2822" x="271.949" y="118.798" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2823" x="216.37" y="152.513" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2824" x="228.915" y="86.4171" rotation="148.761">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2825" x="157.455" y="176.862" width="40" height="40" rotation="148.761">
+   <ellipse/>
+  </object>
+  <object id="2826" x="162.641" y="185.414" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2827" x="300.835" y="89.2778" width="40" height="40" rotation="148.761">
+   <ellipse/>
+  </object>
+  <object id="2828" x="152.269" y="168.314" rotation="148.761">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2829" x="408.646" y="-23.2071" rotation="148.761">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2830" x="125.018" y="208.236" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2831" x="451.67" y="9.16819" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2832" x="408.865" y="23.4337" width="40" height="40" rotation="148.761">
+   <ellipse/>
+  </object>
+  <object id="2833" x="446.266" y="-46.028" rotation="148.761">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2834" x="338.229" y="19.8094" rotation="148.761">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2835" x="325.678" y="85.8969" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2836" x="266.762" y="110.247" width="40" height="40" rotation="148.761">
+   <ellipse/>
+  </object>
+  <object id="2837" x="81.9825" y="175.854" rotation="148.761">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2838" x="433.716" y="20.0614" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2839" x="87.4065" y="231.05" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2840" x="343.632" y="75.0036" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2841" x="484.108" y="-22.2044" width="40" height="40" rotation="148.761">
+   <ellipse/>
+  </object>
+  <object id="2842" x="234.324" y="141.619" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2843" x="469.629" y="-1.71586" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2844" x="381.257" y="52.1819" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2845" x="42.8223" y="234.695" rotation="148.761">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2846" x="414.053" y="31.9842" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2847" x="489.295" y="-13.6536" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2848" gid="3" x="136.705" y="142.664" width="128" height="64" rotation="148.761">
+   <properties>
+    <property name="Texture" value="stickyplats.png"/>
+   </properties>
+  </object>
+  <object id="2849" x="478.921" y="-30.7541" rotation="148.761">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2850" x="369.484" y="35.6349" rotation="148.761">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2851" x="119.608" y="153.032" rotation="148.761">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2852" x="361.59" y="64.1186" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2853" x="300.607" y="42.6274" rotation="148.761">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2854" x="261.447" y="101.47" rotation="148.761">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2855" x="152.134" y="168.078" rotation="148.761">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2856" x="82.2171" y="222.499" width="40" height="40" rotation="148.761">
+   <ellipse/>
+  </object>
+  <object id="2857" gid="3" x="246.012" y="76.0472" width="128" height="64" rotation="148.761">
+   <properties>
+    <property name="Texture" value="stickyplats.png"/>
+   </properties>
+  </object>
+  <object id="2858" x="306.016" y="97.8194" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2859" x="370.883" y="35.0813" rotation="148.761">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2860" x="142.971" y="197.344" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2861" x="252.277" y="130.727" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2862" x="376.071" y="43.6318" width="40" height="40" rotation="148.761">
+   <ellipse/>
+  </object>
+  <object id="2863" x="191.296" y="109.236" rotation="148.761">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2864" x="261.575" y="101.697" rotation="148.761">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2865" x="107.067" y="219.125" width="40" height="40" rotation="148.761">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2866" gid="10" x="268.083" y="419.607" width="128" height="64" rotation="16.5389">
+   <properties>
+    <property name="Texture" value="bplat.png"/>
+   </properties>
+  </object>
+  <object id="2867" x="275.774" y="393.724" rotation="16.5389">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2868" x="279.476" y="381.259" width="40" height="40" rotation="16.5389">
+   <ellipse/>
+  </object>
+  <object id="2869" x="342.819" y="392.769" rotation="16.5389">
+   <properties>
+    <property name="Stickiness" value="Bouncy"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2870" x="329.438" y="437.826" rotation="16.5389">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2871" x="398.471" y="430.162" rotation="16.5389">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2872" x="363.836" y="406.311" width="40" height="40" rotation="16.5389">
+   <ellipse/>
+  </object>
+  <object id="2873" x="281.464" y="374.551" width="40" height="40" rotation="16.5389">
+   <ellipse/>
+  </object>
+  <object id="2874" x="300.634" y="380.246" rotation="16.5389">
+   <properties>
+    <property name="Stickiness" value="Bouncy"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2875" x="365.826" y="399.602" width="40" height="40" rotation="16.5389">
+   <ellipse/>
+  </object>
+  <object id="2876" x="287.262" y="425.298" rotation="16.5389">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2877" gid="10" x="271.39" y="699.443" width="128" height="64" rotation="10.7057">
+   <properties>
+    <property name="Texture" value="bplat.png"/>
+   </properties>
+  </object>
+  <object id="2878" x="276.41" y="672.913" rotation="10.7057">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2879" x="278.827" y="660.136" width="40" height="40" rotation="10.7057">
+   <ellipse/>
+  </object>
+  <object id="2880" x="343.011" y="665.149" rotation="10.7057">
+   <properties>
+    <property name="Stickiness" value="Bouncy"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2881" x="334.279" y="711.333" rotation="10.7057">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2882" x="402.176" y="696.692" rotation="10.7057">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2883" x="365.295" y="676.484" width="40" height="40" rotation="10.7057">
+   <ellipse/>
+  </object>
+  <object id="2884" x="280.123" y="653.26" width="40" height="40" rotation="10.7057">
+   <ellipse/>
+  </object>
+  <object id="2885" x="299.772" y="656.977" rotation="10.7057">
+   <properties>
+    <property name="Stickiness" value="Bouncy"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2886" x="366.594" y="669.608" width="40" height="40" rotation="10.7057">
+   <ellipse/>
+  </object>
+  <object id="2887" x="291.048" y="703.156" rotation="10.7057">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2888" gid="10" x="547.082" y="756.268" width="128" height="64" rotation="-13.7452">
+   <properties>
+    <property name="Texture" value="bplat.png"/>
+   </properties>
+  </object>
+  <object id="2889" x="540.67" y="730.04" rotation="-13.7452">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2890" x="537.582" y="717.409" width="40" height="40" rotation="-13.7452">
+   <ellipse/>
+  </object>
+  <object id="2891" x="598.085" y="695.405" rotation="-13.7452">
+   <properties>
+    <property name="Stickiness" value="Bouncy"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2892" x="609.251" y="741.061" rotation="-13.7452">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2893" x="664.999" y="699.63" rotation="-13.7452">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2894" x="623.062" y="696.5" width="40" height="40" rotation="-13.7452">
+   <ellipse/>
+  </object>
+  <object id="2895" x="535.915" y="710.613" width="40" height="40" rotation="-13.7452">
+   <ellipse/>
+  </object>
+  <object id="2896" x="555.341" y="705.863" rotation="-13.7452">
+   <properties>
+    <property name="Stickiness" value="Bouncy"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2897" x="621.398" y="689.703" width="40" height="40" rotation="-13.7452">
+   <ellipse/>
+  </object>
+  <object id="2898" x="566.513" y="751.511" rotation="-13.7452">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2899" gid="10" x="817.073" y="609.639" width="128" height="64" rotation="-0.180683">
+   <properties>
+    <property name="Texture" value="bplat.png"/>
+   </properties>
+  </object>
+  <object id="2900" x="816.993" y="582.639" rotation="-0.180683">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2901" x="816.952" y="569.635" width="40" height="40" rotation="-0.180683">
+   <ellipse/>
+  </object>
+  <object id="2902" x="880.928" y="562.436" rotation="-0.180683">
+   <properties>
+    <property name="Stickiness" value="Bouncy"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2903" x="881.076" y="609.438" rotation="-0.180683">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2904" x="944.986" y="582.237" rotation="-0.180683">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2905" x="904.952" y="569.359" width="40" height="40" rotation="-0.180683">
+   <ellipse/>
+  </object>
+  <object id="2906" x="816.927" y="562.639" width="40" height="40" rotation="-0.180683">
+   <ellipse/>
+  </object>
+  <object id="2907" x="836.924" y="562.577" rotation="-0.180683">
+   <properties>
+    <property name="Stickiness" value="Bouncy"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2908" x="904.928" y="562.361" width="40" height="40" rotation="-0.180683">
+   <ellipse/>
+  </object>
+  <object id="2909" x="837.078" y="609.572" rotation="-0.180683">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2910" gid="10" x="478.461" y="245.081" width="128" height="64" rotation="12.8402">
+   <properties>
+    <property name="Texture" value="bplat.png"/>
+   </properties>
+  </object>
+  <object id="2911" x="484.466" y="218.756" rotation="12.8402">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2912" x="487.357" y="206.078" width="40" height="40" rotation="12.8402">
+   <ellipse/>
+  </object>
+  <object id="2913" x="551.31" y="213.477" rotation="12.8402">
+   <properties>
+    <property name="Stickiness" value="Bouncy"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2914" x="540.863" y="259.304" rotation="12.8402">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2915" x="609.258" y="247.203" rotation="12.8402">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2916" x="573.156" y="225.635" width="40" height="40" rotation="12.8402">
+   <ellipse/>
+  </object>
+  <object id="2917" x="488.908" y="199.255" width="40" height="40" rotation="12.8402">
+   <ellipse/>
+  </object>
+  <object id="2918" x="508.405" y="203.701" rotation="12.8402">
+   <properties>
+    <property name="Stickiness" value="Bouncy"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2919" x="574.71" y="218.812" width="40" height="40" rotation="12.8402">
+   <ellipse/>
+  </object>
+  <object id="2920" x="497.967" y="249.523" rotation="12.8402">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2921" gid="3" x="1085.15" y="644.401" width="128" height="64" rotation="269.951">
+   <properties>
+    <property name="Texture" value="stickyplats.png"/>
+   </properties>
+  </object>
+  <object id="2922" x="1034.7" y="428.443" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2923" x="1044.7" y="428.433" width="40" height="40" rotation="269.951">
+   <ellipse/>
+  </object>
+  <object id="2924" gid="3" x="1085.51" y="770.916" width="128" height="64" rotation="269.951">
+   <properties>
+    <property name="Texture" value="stickyplats.png"/>
+   </properties>
+  </object>
+  <object id="2925" x="1034.78" y="516.442" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2926" x="1034.72" y="451.437" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2927" x="1084.76" y="496.398" rotation="269.951">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2928" x="1044.4" y="388.427" width="40" height="40" rotation="269.951">
+   <ellipse/>
+  </object>
+  <object id="2929" x="1034.4" y="388.435" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2930" x="1045.07" y="556.44" width="40" height="40" rotation="269.951">
+   <ellipse/>
+  </object>
+  <object id="2931" x="1054.4" y="388.418" rotation="269.951">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2932" x="1085.46" y="706.921" rotation="269.951">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2933" x="1034.36" y="344.431" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2934" x="1035.48" y="726.96" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2935" x="1045.45" y="682.955" width="40" height="40" rotation="269.951">
+   <ellipse/>
+  </object>
+  <object id="2936" x="1085.5" y="750.923" rotation="269.951">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2937" x="1085.13" y="624.406" rotation="269.951">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2938" x="1035.1" y="579.444" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2939" x="1044.78" y="516.434" width="40" height="40" rotation="269.951">
+   <ellipse/>
+  </object>
+  <object id="2940" x="1084.35" y="324.387" rotation="269.951">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2941" x="1035.46" y="705.96" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2942" x="1034.32" y="300.442" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2943" x="1035.12" y="600.444" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2944" x="1045.52" y="770.957" width="40" height="40" rotation="269.951">
+   <ellipse/>
+  </object>
+  <object id="2945" x="1034.74" y="472.437" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2946" x="1035.5" y="747.96" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2947" x="1035.15" y="644.449" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2948" x="1054.29" y="260.414" rotation="269.951">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2949" x="1035.45" y="682.965" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2950" x="1035.52" y="770.965" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2951" gid="3" x="1084.4" y="388.388" width="128" height="64" rotation="269.951">
+   <properties>
+    <property name="Texture" value="stickyplats.png"/>
+   </properties>
+  </object>
+  <object id="2952" x="1055.52" y="770.947" rotation="269.951">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2953" x="1055.41" y="642.948" rotation="269.951">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2954" x="1084.39" y="368.393" rotation="269.951">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2955" x="1035.13" y="621.443" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2956" x="1085.1" y="580.405" rotation="269.951">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2957" x="1055.04" y="516.432" rotation="269.951">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2958" x="1054.67" y="388.425" rotation="269.951">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2959" x="1044.32" y="300.43" width="40" height="40" rotation="269.951">
+   <ellipse/>
+  </object>
+  <object id="2960" gid="3" x="1084.78" y="516.395" width="128" height="64" rotation="269.951">
+   <properties>
+    <property name="Texture" value="stickyplats.png"/>
+   </properties>
+  </object>
+  <object id="2961" x="1035.08" y="556.449" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2962" x="1055.16" y="644.431" rotation="269.951">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2963" x="1034.38" y="365.43" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2964" x="1034.76" y="493.436" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2965" x="1045.15" y="644.441" width="40" height="40" rotation="269.951">
+   <ellipse/>
+  </object>
+  <object id="2966" x="1084.73" y="452.399" rotation="269.951">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2967" x="1054.78" y="516.424" rotation="269.951">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2968" x="1034.34" y="323.436" width="40" height="40" rotation="269.951">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2969" gid="6" x="571.709" y="654" width="32" height="32" rotation="16.5881">
+   <properties>
+    <property name="Texture" value="Star2.png"/>
+   </properties>
+  </object>
+  <object id="2970" gid="6" x="331.576" y="362.732" width="32" height="32" rotation="46.8722">
+   <properties>
+    <property name="Texture" value="Star2.png"/>
+   </properties>
+  </object>
+  <object id="2971" gid="6" x="330.931" y="628.235" width="32" height="32" rotation="41.0389">
+   <properties>
+    <property name="Texture" value="Star2.png"/>
+   </properties>
+  </object>
+  <object id="2983" x="271.321" y="905.251" rotation="-323.481">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2984" x="169.648" y="861.073" rotation="-323.481">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2985" x="205.009" y="887.257" rotation="-323.481">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2986" x="168.452" y="829.08" rotation="-323.481">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2987" x="248.102" y="869.391" width="40" height="40" rotation="-323.481">
+   <ellipse/>
+  </object>
+  <object id="2988" x="228.814" y="855.109" rotation="-323.481">
+   <properties>
+    <property name="Stickiness" value="Death"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2989" x="177.38" y="817.023" width="40" height="40" rotation="-323.481">
+   <ellipse/>
+  </object>
+  <object id="2990" x="180.355" y="813.005" width="40" height="40" rotation="-323.481">
+   <ellipse/>
+  </object>
+  <object id="2991" x="251.077" y="865.373" width="40" height="40" rotation="-323.481">
+   <ellipse/>
+  </object>
+  <object id="2992" gid="11" x="153.471" y="849.094" width="128" height="64" rotation="-323.481">
+   <properties>
+    <property name="Texture" value="spikeplat.png"/>
+   </properties>
+  </object>
+  <object id="2993" x="193.453" y="828.925" rotation="-323.481">
+   <properties>
+    <property name="Stickiness" value="Death"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2994" x="757.838" y="924.538" rotation="-19.8429">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2995" x="716.45" y="939.468" rotation="-19.8429">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2996" x="766.836" y="878.762" width="40" height="40" rotation="-19.8429">
+   <ellipse/>
+  </object>
+  <object id="2997" gid="10" x="697.634" y="946.263" width="128" height="64" rotation="-19.8429">
+   <properties>
+    <property name="Texture" value="bplat.png"/>
+   </properties>
+  </object>
+  <object id="2998" x="688.474" y="920.864" rotation="-19.8429">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2999" x="681.682" y="902.052" width="40" height="40" rotation="-19.8429">
+   <ellipse/>
+  </object>
+  <object id="3000" x="700.492" y="895.265" rotation="-19.8429">
+   <properties>
+    <property name="Stickiness" value="Bouncy"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="3001" x="808.869" y="877.419" rotation="-19.8429">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="3002" x="684.06" y="908.632" width="40" height="40" rotation="-19.8429">
+   <ellipse/>
+  </object>
+  <object id="3003" x="741.883" y="880.326" rotation="-19.8429">
+   <properties>
+    <property name="Stickiness" value="Bouncy"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="3004" x="764.459" y="872.18" width="40" height="40" rotation="-19.8429">
+   <ellipse/>
+  </object>
+  <object id="3005" x="627.739" y="-36.8252" rotation="540.946">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="3006" x="883.563" y="-23.1288" width="40" height="40" rotation="540.946">
+   <ellipse/>
+  </object>
+  <object id="3007" x="864.225" y="-63.4508" rotation="540.946">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="3008" x="820.23" y="-64.1852" rotation="540.946">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="3009" x="539.589" y="-28.2753" width="40" height="40" rotation="540.946">
+   <ellipse/>
+  </object>
+  <object id="3010" x="795.573" y="-24.5776" width="40" height="40" rotation="540.946">
+   <ellipse/>
+  </object>
+  <object id="3011" x="755.732" y="-34.9813" rotation="540.946">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="3012" x="839.398" y="-13.8646" width="40" height="40" rotation="540.946">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="3013" x="564.238" y="-67.883" rotation="540.946">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="3014" x="818.401" y="-14.2095" width="40" height="40" rotation="540.946">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="3015" x="860.394" y="-13.5098" width="40" height="40" rotation="540.946">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="3016" gid="3" x="884.217" y="-63.1235" width="128" height="64" rotation="540.946">
+   <properties>
+    <property name="Texture" value="stickyplats.png"/>
+   </properties>
+  </object>
+  <object id="3017" x="795.409" y="-14.589" width="40" height="40" rotation="540.946">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="3018" x="627.574" y="-26.8265" width="40" height="40" rotation="540.946">
+   <ellipse/>
+  </object>
+  <object id="3019" gid="3" x="628.23" y="-66.8212" width="128" height="64" rotation="540.946">
+   <properties>
+    <property name="Texture" value="stickyplats.png"/>
+   </properties>
+  </object>
+  <object id="3020" x="627.408" y="-16.8279" width="40" height="40" rotation="540.946">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="3021" x="692.237" y="-66.0391" rotation="540.946">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="3022" x="755.568" y="-24.9827" width="40" height="40" rotation="540.946">
+   <ellipse/>
+  </object>
+  <object id="3023" x="667.579" y="-26.4315" width="40" height="40" rotation="540.946">
+   <ellipse/>
+  </object>
+  <object id="3024" x="736.23" y="-65.3047" rotation="540.946">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="3025" x="883.397" y="-13.1302" width="40" height="40" rotation="540.946">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="3026" x="755.403" y="-14.984" width="40" height="40" rotation="540.946">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="3028" x="732.4" y="-15.3637" width="40" height="40" rotation="540.946">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="3029" x="539.427" y="-18.2766" width="40" height="40" rotation="540.946">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="3030" x="608.238" y="-67.1585" rotation="540.946">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="3031" x="562.418" y="-17.8971" width="40" height="40" rotation="540.946">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="3032" x="711.404" y="-15.7085" width="40" height="40" rotation="540.946">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="3033" x="627.751" y="-37.095" rotation="540.946">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="3034" gid="3" x="756.224" y="-64.9773" width="128" height="64" rotation="540.946">
+   <properties>
+    <property name="Texture" value="stickyplats.png"/>
+   </properties>
+  </object>
+  <object id="3035" x="667.416" y="-16.4328" width="40" height="40" rotation="540.946">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="3036" x="883.726" y="-33.1375" rotation="540.946">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="3037" x="583.41" y="-17.5524" width="40" height="40" rotation="540.946">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="3038" x="690.406" y="-16.0533" width="40" height="40" rotation="540.946">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="3039" x="755.745" y="-35.2411" rotation="540.946">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="3040" x="604.407" y="-17.2076" width="40" height="40" rotation="540.946">
+   <properties>
+    <property name="Stickiness" value="Sticky"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="3041" x="882.248" y="-33.4132" rotation="540.946">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="3042" x="499.752" y="-38.939" rotation="540.946">
+   <polyline points="0,0 0,10"/>
+  </object>
+ </objectgroup>
+</map>

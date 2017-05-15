@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="GXPEngine\GXPEngine.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="c:\Users\Aristid\Dropbox\Project 2D phy\GE\CODE\Physics Game\PhysicsGame\GXPEngine\TMXParser.cs">
+    <Files>
+      <File FileName="GXPEngine\Level.cs" Line="1" Column="1" />
+      <File FileName="c:\Users\Aristid\Dropbox\Project 2D phy\GE\CODE\Physics Game\PhysicsGame\GXPEngine\TMXParser.cs" Line="19" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

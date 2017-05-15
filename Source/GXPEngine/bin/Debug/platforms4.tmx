@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="42" height="42" tilewidth="64" tileheight="64" nextobjectid="2018">
+ <tileset firstgid="1" name="ground" tilewidth="1088" tileheight="64" tilecount="1" columns="1">
+  <image source="ground.png" width="1088" height="64"/>
+ </tileset>
+ <tileset firstgid="2" name="monster" tilewidth="256" tileheight="128" tilecount="1" columns="1">
+  <image source="monster.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="3" name="stickyplats" tilewidth="128" tileheight="64" tilecount="1" columns="1">
+  <image source="stickyplats.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="4" name="base" tilewidth="128" tileheight="128" tilecount="1" columns="1">
+  <image source="base.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="5" name="cannon" tilewidth="128" tileheight="128" tilecount="1" columns="1">
+  <image source="cannon.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="6" name="Star2" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="Star2.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="7" name="plat" tilewidth="192" tileheight="64" tilecount="1" columns="1">
+  <image source="plat.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="8" name="plats" tilewidth="128" tileheight="64" tilecount="1" columns="1">
+  <image source="plats.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="9" name="platb" tilewidth="256" tileheight="64" tilecount="1" columns="1">
+  <image source="platb.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="10" name="bplat" tilewidth="128" tileheight="64" tilecount="1" columns="1">
+  <image source="bplat.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="11" name="spikeplat" tilewidth="128" tileheight="64" tilecount="1" columns="1">
+  <image source="spikeplat.png" width="128" height="64"/>
+ </tileset>
+ <objectgroup name="Object Layer 1">
+  <object id="728" gid="1" x="0" y="1088" width="1088" height="64">
+   <properties>
+    <property name="Texture" value="ground.png"/>
+   </properties>
+  </object>
+  <object id="732" name="monster" gid="2" x="455.424" y="1087.7" width="256" height="128">
+   <properties>
+    <property name="Texture" value="monster.png"/>
+   </properties>
+  </object>
+  <object id="760" x="0" y="1061">
+   <properties>
+    <property name="Stickiness" value="Restart"/>
+   </properties>
+   <polyline points="0,0 1180,0"/>
+  </object>
+  <object id="1146" x="224.358" y="3.93097" width="40" height="40" rotation="180.172">
+   <ellipse/>
+  </object>
+  <object id="1147" x="248.949" y="-45.7808" rotation="180.172">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1148" x="292.353" y="4.73696" rotation="180.172">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1149" x="312.589" y="-15.0238" rotation="180.172">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="1150" x="184.598" y="-16.5425" rotation="180.172">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="1151" x="248.356" y="4.21485" rotation="180.172">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1152" x="312.47" y="-5.02432" width="40" height="40" rotation="180.172">
+   <ellipse/>
+  </object>
+  <object id="1153" x="224.476" y="-6.06855" width="40" height="40" rotation="180.172">
+   <ellipse/>
+  </object>
+  <object id="1154" x="292.946" y="-45.2596" rotation="180.172">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1155" gid="8" x="312.945" y="-45.0224" width="128" height="64" rotation="180.172">
+   <properties>
+    <property name="Texture" value="plats.png"/>
+   </properties>
+  </object>
+  <object id="1156" x="312.352" y="4.9742" width="40" height="40" rotation="180.172">
+   <ellipse/>
+  </object>
+  <object id="1228" x="25.2953" y="1023.98" rotation="90.6083">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="1860" gid="6" x="209.663" y="387.356" width="32" height="32" rotation="30.1526">
+   <properties>
+    <property name="Texture" value="Star2.png"/>
+   </properties>
+  </object>
+  <object id="1861" gid="6" x="754.826" y="708" width="32" height="32" rotation="-38.9731">
+   <properties>
+    <property name="Texture" value="Star2.png"/>
+   </properties>
+  </object>
+  <object id="1862" gid="6" x="674.124" y="229.957" width="32" height="32" rotation="28.1937">
+   <properties>
+    <property name="Texture" value="Star2.png"/>
+   </properties>
+  </object>
+  <object id="1866" x="176.262" y="12.83" rotation="-941.119">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1867" x="178.178" y="-15.3896" rotation="-941.119">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="1868" x="124.543" y="30.7822" width="70" height="70" rotation="31.2956">
+   <ellipse/>
+  </object>
+  <object id="1869" x="143.382" y="-24.837" rotation="-941.119">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1870" gid="5" x="162.988" y="21.8816" width="128" height="128" rotation="-580.99">
+   <properties>
+    <property name="Texture" value="cannon.png"/>
+   </properties>
+  </object>
+  <object id="1871" gid="4" x="162.301" y="22.4778" width="128" height="128" rotation="-580.99">
+   <properties>
+    <property name="Texture" value="base2.png"/>
+   </properties>
+  </object>
+  <object id="1872" x="33.5345" y="110.875" rotation="-941.119">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="1873" x="110.231" y="4.09822" rotation="-941.119">
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="1874" x="184.755" y="-7.85557" width="40" height="40" rotation="-941.119">
+   <ellipse/>
+  </object>
+  <object id="1875" x="62.0233" y="46.1844" rotation="-941.119">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1876" x="143.119" y="41.7594" rotation="-941.119">
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="1877" x="70.2464" y="92.1026" width="40" height="40" rotation="-941.119">
+   <ellipse/>
+  </object>
+  <object id="1878" x="113.962" y="38.9158" width="70" height="70" rotation="31.2956">
+   <ellipse/>
+  </object>
+  <object id="1879" gid="7" x="158.534" y="-38.0611" width="192" height="64" rotation="-580.99">
+   <properties>
+    <property name="Texture" value="plat.png"/>
+   </properties>
+  </object>
+  <object id="1880" x="191.33" y="-0.322311" width="40" height="40" rotation="-941.119">
+   <ellipse/>
+  </object>
+  <object id="1881" x="94.9046" y="83.8529" rotation="-941.119">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1882" x="76.8223" y="99.6359" width="40" height="40" rotation="-941.119">
+   <ellipse/>
+  </object>
+  <object id="1896" x="137.788" y="347.575" width="40" height="40" rotation="-329.889">
+   <ellipse/>
+  </object>
+  <object id="1897" x="264.265" y="432.487" width="40" height="40" rotation="-329.889">
+   <ellipse/>
+  </object>
+  <object id="1898" x="193.15" y="379.686" rotation="-329.889">
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="1899" x="248.515" y="411.792" rotation="-329.889">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1900" x="155.089" y="357.609" rotation="-329.889">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1901" x="127.759" y="364.878" rotation="-329.889">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="1902" x="132.778" y="356.229" width="40" height="40" rotation="-329.889">
+   <ellipse/>
+  </object>
+  <object id="1903" x="130.012" y="400.865" rotation="-329.889">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1904" gid="7" x="112.617" y="390.774" width="192" height="64" rotation="30.2405">
+   <properties>
+    <property name="Texture" value="plat.png"/>
+   </properties>
+  </object>
+  <object id="1905" x="168.072" y="422.943" rotation="-329.889">
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="1906" x="293.848" y="461.204" rotation="-329.889">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="1907" x="269.275" y="423.833" width="40" height="40" rotation="-329.889">
+   <ellipse/>
+  </object>
+  <object id="1908" x="223.437" y="455.048" rotation="-329.889">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1909" x="691.529" y="761.202" width="40" height="40" rotation="-39.2806">
+   <ellipse/>
+  </object>
+  <object id="1910" x="815.524" y="672.706" width="40" height="40" rotation="-39.2806">
+   <ellipse/>
+  </object>
+  <object id="1911" x="741.071" y="720.686" rotation="-39.2806">
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="1912" x="790.609" y="680.164" rotation="-39.2806">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1913" x="707.01" y="748.541" rotation="-39.2806">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1914" x="704.195" y="776.68" rotation="-39.2806">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="1915" x="697.866" y="768.938" width="40" height="40" rotation="-39.2806">
+   <ellipse/>
+  </object>
+  <object id="1916" x="738.671" y="787.238" rotation="-39.2806">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1917" gid="7" x="723.104" y="799.968" width="192" height="64" rotation="320.848">
+   <properties>
+    <property name="Texture" value="plat.png"/>
+   </properties>
+  </object>
+  <object id="1918" x="772.733" y="759.384" rotation="-39.2806">
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="1919" x="852.815" y="655.123" rotation="-39.2806">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="1920" x="809.187" y="664.97" width="40" height="40" rotation="-39.2806">
+   <ellipse/>
+  </object>
+  <object id="1921" x="822.27" y="718.862" rotation="-39.2806">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1922" x="186.951" y="627.052" width="40" height="40" rotation="-326.008">
+   <ellipse/>
+  </object>
+  <object id="1923" x="307.391" y="720.329" width="40" height="40" rotation="-326.008">
+   <ellipse/>
+  </object>
+  <object id="1924" x="240.012" y="662.836" rotation="-326.008">
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="1925" x="293.077" y="698.615" rotation="-326.008">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1926" x="203.532" y="638.235" rotation="-326.008">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1927" x="175.773" y="643.638" rotation="-326.008">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="1928" x="181.366" y="635.348" width="40" height="40" rotation="-326.008">
+   <ellipse/>
+  </object>
+  <object id="1929" x="175.585" y="679.694" rotation="-326.008">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1930" gid="7" x="158.913" y="668.449" width="192" height="64" rotation="34.1207">
+   <properties>
+    <property name="Texture" value="plat.png"/>
+   </properties>
+  </object>
+  <object id="1931" x="212.064" y="704.297" rotation="-326.008">
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="1932" x="334.963" y="750.982" rotation="-326.008">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="1933" x="312.976" y="712.033" width="40" height="40" rotation="-326.008">
+   <ellipse/>
+  </object>
+  <object id="1934" x="265.13" y="740.075" rotation="-326.008">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1935" x="663.982" y="325.115" width="40" height="40" rotation="-63.3146">
+   <ellipse/>
+  </object>
+  <object id="1936" x="741.184" y="193.79" width="40" height="40" rotation="-63.3146">
+   <ellipse/>
+  </object>
+  <object id="1937" x="692.727" y="267.933" rotation="-63.3146">
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="1938" x="721.467" y="210.749" rotation="-63.3146">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1939" x="672.965" y="307.246" rotation="-63.3146">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1940" x="681.854" y="334.092" rotation="-63.3146">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="1941" x="672.92" y="329.599" width="40" height="40" rotation="-63.3146">
+   <ellipse/>
+  </object>
+  <object id="1942" x="717.642" y="329.693" rotation="-63.3146">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1943" gid="7" x="708.608" y="347.66" width="192" height="64" rotation="296.814">
+   <properties>
+    <property name="Texture" value="plat.png"/>
+   </properties>
+  </object>
+  <object id="1944" x="737.405" y="290.381" rotation="-63.3146">
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="1945" x="768.082" y="162.544" rotation="-63.3146">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="1946" x="732.246" y="189.306" width="40" height="40" rotation="-63.3146">
+   <ellipse/>
+  </object>
+  <object id="1947" x="766.145" y="233.197" rotation="-63.3146">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1948" x="504.806" y="3.98664" width="40" height="40" rotation="-180.238">
+   <ellipse/>
+  </object>
+  <object id="1949" x="352.758" y="-5.38494" width="40" height="40" rotation="-180.238">
+   <ellipse/>
+  </object>
+  <object id="1950" x="440.806" y="4.24805" rotation="-180.238">
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="1951" x="376.806" y="4.51646" rotation="-180.238">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1952" x="484.806" y="4.06858" rotation="-180.238">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1953" x="504.718" y="-16.0132" rotation="-180.238">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="1954" x="504.757" y="-6.01329" width="40" height="40" rotation="-180.238">
+   <ellipse/>
+  </object>
+  <object id="1955" x="484.591" y="-45.9301" rotation="-180.238">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1956" gid="7" x="504.701" y="-46.0113" width="192" height="64" rotation="179.891">
+   <properties>
+    <property name="Texture" value="plat.png"/>
+   </properties>
+  </object>
+  <object id="1957" x="440.591" y="-45.7516" rotation="-180.238">
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="1958" x="312.719" y="-15.219" rotation="-180.238">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="1959" x="352.807" y="4.61498" width="40" height="40" rotation="-180.238">
+   <ellipse/>
+  </object>
+  <object id="1960" x="376.592" y="-45.4832" rotation="-180.238">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1961" x="838.803" y="560.048" width="40" height="40" rotation="-89.3826">
+   <ellipse/>
+  </object>
+  <object id="1962" x="838.07" y="628.044" rotation="-89.3826">
+   <properties>
+    <property name="Stickiness" value="Death"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1963" x="838.545" y="584.047" rotation="-89.3826">
+   <properties>
+    <property name="Stickiness" value="Death"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1964" x="854.235" y="520.212" rotation="-89.3826">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="1965" x="832.855" y="647.989" width="40" height="40" rotation="-89.3826">
+   <ellipse/>
+  </object>
+  <object id="1966" x="878.07" y="628.475" rotation="-89.3826">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1967" x="852.856" y="648.205" rotation="-89.3826">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="1968" x="878.544" y="584.478" rotation="-89.3826">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1969" x="837.855" y="648.043" width="40" height="40" rotation="-89.3826">
+   <ellipse/>
+  </object>
+  <object id="1970" gid="11" x="877.853" y="648.604" width="128" height="64" rotation="-89.3826">
+   <properties>
+    <property name="Texture" value="spikeplat.png"/>
+   </properties>
+  </object>
+  <object id="1971" x="833.804" y="559.994" width="40" height="40" rotation="-89.3826">
+   <ellipse/>
+  </object>
+  <object id="1972" x="854.821" y="520.37" rotation="-90.0764">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="1973" x="839.819" y="520.39" width="40" height="40" rotation="-90.0764">
+   <ellipse/>
+  </object>
+  <object id="1974" gid="11" x="879.821" y="520.467" width="128" height="64" rotation="-90.0764">
+   <properties>
+    <property name="Texture" value="spikeplat.png"/>
+   </properties>
+  </object>
+  <object id="1975" x="834.702" y="432.396" width="40" height="40" rotation="-90.0764">
+   <ellipse/>
+  </object>
+  <object id="1976" x="854.65" y="392.37" rotation="-90.0764">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="1977" x="839.702" y="432.39" width="40" height="40" rotation="-90.0764">
+   <ellipse/>
+  </object>
+  <object id="1978" x="839.792" y="500.39" rotation="-90.0764">
+   <properties>
+    <property name="Stickiness" value="Death"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1979" x="879.736" y="456.337" rotation="-90.0764">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1980" x="839.734" y="456.39" rotation="-90.0764">
+   <properties>
+    <property name="Stickiness" value="Death"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1981" x="879.794" y="500.337" rotation="-90.0764">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1982" x="834.819" y="520.397" width="40" height="40" rotation="-90.0764">
+   <ellipse/>
+  </object>
+  <object id="1983" x="174.969" y="581.365" width="40" height="40" rotation="-270.139">
+   <ellipse/>
+  </object>
+  <object id="1984" x="174.804" y="513.365" rotation="-270.139">
+   <properties>
+    <property name="Stickiness" value="Death"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1985" x="174.911" y="557.365" rotation="-270.139">
+   <properties>
+    <property name="Stickiness" value="Death"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1986" x="160.065" y="621.401" rotation="-270.139">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="1987" x="179.756" y="493.353" width="40" height="40" rotation="-270.139">
+   <ellipse/>
+  </object>
+  <object id="1988" x="134.803" y="513.462" rotation="-270.139">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1989" x="159.754" y="493.401" rotation="-270.139">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="1990" x="134.909" y="557.462" rotation="-270.139">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1991" x="174.756" y="493.365" width="40" height="40" rotation="-270.139">
+   <ellipse/>
+  </object>
+  <object id="1992" gid="11" x="134.754" y="493.332" width="128" height="64" rotation="-270.139">
+   <properties>
+    <property name="Texture" value="spikeplat.png"/>
+   </properties>
+  </object>
+  <object id="1993" x="179.969" y="581.353" width="40" height="40" rotation="-270.139">
+   <ellipse/>
+  </object>
+  <object id="1994" x="354.623" y="748.959" width="40" height="40" rotation="-659.187">
+   <ellipse/>
+  </object>
+  <object id="1995" x="420.018" y="886.545" width="40" height="40" rotation="-659.187">
+   <ellipse/>
+  </object>
+  <object id="1996" x="385.83" y="804.835" rotation="-659.187">
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="1997" x="417.042" y="860.708" rotation="-659.187">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1998" x="364.375" y="766.42" rotation="-659.187">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="1999" x="337.165" y="758.717" rotation="-659.187">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2000" x="345.896" y="753.842" width="40" height="40" rotation="-659.187">
+   <ellipse/>
+  </object>
+  <object id="2001" x="320.728" y="790.809" rotation="-659.187">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2002" gid="7" x="310.923" y="773.251" width="192" height="64" rotation="-299.058">
+   <properties>
+    <property name="Texture" value="plat.png"/>
+   </properties>
+  </object>
+  <object id="2003" x="342.181" y="829.225" rotation="-659.187">
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="2004" x="430.793" y="926.341" rotation="-659.187">
+   <polyline points="0,0 0,10"/>
+  </object>
+  <object id="2005" x="428.745" y="881.662" width="40" height="40" rotation="-659.187">
+   <ellipse/>
+  </object>
+  <object id="2006" x="373.394" y="885.098" rotation="-659.187">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2007" x="138.157" y="294.35" rotation="-270.139">
+   <properties>
+    <property name="Stickiness" value="Death"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2008" x="123" y="230.386" rotation="-270.139">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2009" x="138.215" y="318.35" width="40" height="40" rotation="-270.139">
+   <ellipse/>
+  </object>
+  <object id="2010" gid="11" x="98" y="230.317" width="128" height="64" rotation="-270.139">
+   <properties>
+    <property name="Texture" value="spikeplat.png"/>
+   </properties>
+  </object>
+  <object id="2011" x="123.311" y="358.386" rotation="-270.139">
+   <polyline points="0,0 0,7"/>
+  </object>
+  <object id="2012" x="138.05" y="250.35" rotation="-270.139">
+   <properties>
+    <property name="Stickiness" value="Death"/>
+   </properties>
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2013" x="98.156" y="294.447" rotation="-270.139">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2014" x="143.215" y="318.338" width="40" height="40" rotation="-270.139">
+   <ellipse/>
+  </object>
+  <object id="2015" x="138.002" y="230.35" width="40" height="40" rotation="-270.139">
+   <ellipse/>
+  </object>
+  <object id="2016" x="98.049" y="250.447" rotation="-270.139">
+   <polyline points="0,0 44,0"/>
+  </object>
+  <object id="2017" x="143.002" y="230.338" width="40" height="40" rotation="-270.139">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="10" height="10" tilewidth="32" tileheight="32" nextobjectid="39">
+ <tileset firstgid="1" name="spritesheet" tilewidth="32" tileheight="32" tilecount="10">
+  <image source="spritesheet.png" width="160" height="64"/>
+  <tile id="1">
+   <properties>
+    <property name="door" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <objectgroup name="Object Layer 1">
+  <object id="20" gid="2" x="20" y="235" width="32" height="32">
+   <properties>
+    <property name="baseimage" value="key.png"/>
+    <property name="name" value="Super Key"/>
+    <property name="objecttype" value="key"/>
+    <property name="pickupable" value="true"/>
+    <property name="removable" value="false"/>
+   </properties>
+  </object>
+  <object id="21" gid="2" x="62" y="54" width="32" height="32">
+   <properties>
+    <property name="baseimage" value="stick.png"/>
+    <property name="name" value="Stick"/>
+    <property name="objecttype" value="stick"/>
+    <property name="pickupable" value="true"/>
+   </properties>
+  </object>
+  <object id="22" gid="2" x="242" y="265" width="32" height="32">
+   <properties>
+    <property name="baseimage" value="door.png"/>
+    <property name="interactedby" value="key"/>
+    <property name="objecttype" value="door"/>
+    <property name="pickupable" value="false"/>
+   </properties>
+  </object>
+  <object id="26" gid="3" x="18" y="129" width="32" height="32">
+   <properties>
+    <property name="baseimage" value="teleport.png"/>
+    <property name="gotox" value="200"/>
+    <property name="gotoy" value="150"/>
+    <property name="objecttype" value="superstone"/>
+    <property name="pickupable" value="false"/>
+   </properties>
+  </object>
+  <object id="30" gid="2" x="236" y="79" width="32" height="32">
+   <properties>
+    <property name="baseimage" value="lockpick.png"/>
+    <property name="name" value="Lock Pick"/>
+    <property name="objecttype" value="key"/>
+    <property name="pickupable" value="true"/>
+    <property name="removable" value="true"/>
+   </properties>
+  </object>
+  <object id="35" gid="3" x="0" y="32" width="32" height="32">
+   <properties>
+    <property name="baseimage" value="teleport.png"/>
+    <property name="gotox" value="200"/>
+    <property name="gotoy" value="150"/>
+    <property name="objecttype" value="superstone"/>
+    <property name="pickupable" value="false"/>
+   </properties>
+  </object>
+  <object id="36" gid="7" x="88" y="315" width="32" height="32">
+   <properties>
+    <property name="baseimage" value="npc.png"/>
+    <property name="text" value="Hello friend!"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

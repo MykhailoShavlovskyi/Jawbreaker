@@ -1,0 +1,9 @@
+C:\Users\Миша\Desktop\RPG-base\GXPEngine\bin\Debug\GXPEngine.exe
+C:\Users\Миша\Desktop\RPG-base\GXPEngine\bin\Debug\GXPEngine.pdb
+C:\Users\Миша\Desktop\RPG-base\GXPEngine\obj\x86\Debug\GXPEngine.exe
+C:\Users\Миша\Desktop\RPG-base\GXPEngine\obj\x86\Debug\GXPEngine.pdb
+C:\Users\Aristid\Dropbox\Project 2D phy\GE\CODE\Physics Game\PhysicsGame\GXPEngine\bin\Debug\GXPEngine.exe
+C:\Users\Aristid\Dropbox\Project 2D phy\GE\CODE\Physics Game\PhysicsGame\GXPEngine\bin\Debug\GXPEngine.pdb
+C:\Users\Aristid\Dropbox\Project 2D phy\GE\CODE\Physics Game\PhysicsGame\GXPEngine\obj\x86\Debug\GXPEngine.exe
+C:\Users\Aristid\Dropbox\Project 2D phy\GE\CODE\Physics Game\PhysicsGame\GXPEngine\obj\x86\Debug\GXPEngine.pdb
+C:\Users\Aristid\Dropbox\Project 2D phy\GE\CODE\Physics Game\PhysicsGame\GXPEngine\obj\x86\Debug\GXPEngine.csprojResolveAssemblyReference.cache

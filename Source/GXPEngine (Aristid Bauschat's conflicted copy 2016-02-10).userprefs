@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="GXPEngine\GXPEngine.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GXPEngine\MyGame.cs">
+    <Files>
+      <File FileName="c:\Users\Aristid\Dropbox\Project 2D phy\GE\CODE\Physics Game\PhysicsGame\GXPEngine\TMXParser.cs" Line="18" Column="52" />
+      <File FileName="GXPEngine\MyGame.cs" Line="19" Column="3" />
+      <File FileName="GXPEngine\Tile.cs" Line="10" Column="11" />
+      <File FileName="GXPEngine\Ball.cs" Line="1" Column="1" />
+      <File FileName="GXPEngine\Monster.cs" Line="1" Column="1" />
+      <File FileName="GXPEngine\TextField.cs" Line="1" Column="1" />
+      <File FileName="GXPEngine\TileObject.cs" Line="17" Column="4" />
+      <File FileName="GXPEngine\TMXMap.cs" Line="3" Column="1" />
+      <File FileName="GXPEngine\Menu.cs" Line="11" Column="16" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

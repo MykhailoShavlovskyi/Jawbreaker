@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="17" height="30" tilewidth="48" tileheight="24" nextobjectid="43">
+ <tileset firstgid="1" name="tiles" tilewidth="48" tileheight="96">
+  <image source="tiles.png" width="384" height="96"/>
+ </tileset>
+ <objectgroup name="Object Layer 1">
+  <object id="1" gid="5" x="210" y="308"/>
+  <object id="2" gid="4" x="147" y="238"/>
+  <object id="3" gid="2" x="308" y="151"/>
+  <object id="4" gid="2" x="357" y="151"/>
+  <object id="5" gid="2" x="406" y="174"/>
+  <object id="6" gid="2" x="406" y="152"/>
+  <object id="7" gid="2" x="406" y="219"/>
+  <object id="8" gid="2" x="406" y="197"/>
+  <object id="9" gid="2" x="406" y="309"/>
+  <object id="10" gid="2" x="406" y="287"/>
+  <object id="11" gid="2" x="406" y="264"/>
+  <object id="12" gid="2" x="406" y="242"/>
+  <object id="15" gid="2" x="259" y="151"/>
+  <object id="16" gid="2" x="210" y="151"/>
+  <object id="25" gid="2" x="358" y="309"/>
+  <object id="26" gid="2" x="309" y="308"/>
+  <object id="28" gid="2" x="260" y="308"/>
+  <object id="29" gid="2" x="65" y="218"/>
+  <object id="30" gid="2" x="65" y="196"/>
+  <object id="31" gid="2" x="65" y="286"/>
+  <object id="32" gid="2" x="65" y="173"/>
+  <object id="33" gid="2" x="65" y="151"/>
+  <object id="34" gid="2" x="65" y="308"/>
+  <object id="35" gid="2" x="65" y="263"/>
+  <object id="36" gid="2" x="65" y="241"/>
+  <object id="37" gid="2" x="112" y="151"/>
+  <object id="38" gid="2" x="113" y="308"/>
+  <object id="39" gid="2" x="161" y="151"/>
+  <object id="40" gid="2" x="162" y="308"/>
+  <object id="41" gid="3" x="621" y="324">
+   <properties>
+    <property name="id" value="23456"/>
+   </properties>
+  </object>
+  <object id="42" gid="1" x="247" y="491"/>
+ </objectgroup>
+</map>
